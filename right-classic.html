@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMECUBE - Real Estate HTML5 Template</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon_io/favicon.png">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome-5/icon-css.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header class="header sticky-top header-white">
+        <nav class="navbar navbar-expand-lg navbar-light p-lg-0">
+            <div class="container position-relative">
+                <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="ri-menu-line iconHamburger"></i>
+                    <i class="ri-close-large-line iconClose d-none"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <ul class="list-group list-group-horizontal rounded-0 order-lg-2">
+                    <li class="list-group-item border-0 bg-transparent p-0 rounded-0">
+                        <div class="search_bar">
+                            <button type="submit" class="btn btn_search" id="toggleSearch">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                    fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                    <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                                    <path d="M21 21l-6 -6" />
+                                </svg>
+                            </button>
+                            <div class="search_form" id="searchForm">
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search..."
+                                        aria-label="Search">
+                                    <button class="btn" type="submit">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                            viewBox="0 0 24 24" fill="none" stroke="#051421" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round">
+                                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                                            <path d="M21 21l-6 -6" />
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item border-0 bg-transparent p-0 rounded-0 ms-2">
+                        <a href="login.html" class="btn btn-user">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                                fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                                <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-auto my-2 my-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false">
+                                Home <i class="ri-arrow-down-s-line"></i>
+                            </a>
+                            <ul class="dropdown-menu bg-lg-white">
+                                <li><a class="dropdown-item" href="index.html">Home One</a></li>
+                                <li><a class="dropdown-item" href="index-two.html">Home Two</a></li>
+                                <li><a class="dropdown-item" href="index-three.html">Home Three</a></li>
+                                <li><a class="dropdown-item" href="index-four.html">Home Four</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside">Pages <i class="ri-arrow-down-s-line"></i></a>
+                            <ul class="dropdown-menu bg-lg-white">
+                                <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="services.html">Our Services</a></li>
+                                <li><a class="dropdown-item" href="pricing.html">Pricing</a></li>
+                                <li><a class="dropdown-item" href="faqs.html">Faqs</a></li>
+                                <li><a class="dropdown-item" href="login.html">Login</a></li>
+                                <li><a class="dropdown-item" href="register.html">Register</a></li>
+                                <li><a class="dropdown-item" href="404.html">404 Error</a></li>
+                                <li class="dropdown sub-dropdown"><a class="dropdown-item dropdown-toggle" href="#"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Utility <i
+                                            class="ri-arrow-right-s-line"></i></a>
+                                    <ul class="dropdown-submenu start-100 top-0 bg-lg-white list-unstyled">
+                                        <li>
+                                            <a class="dropdown-item" href="privacy-policy.html">Privacy Policy</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="terms-and-conditions.html">Terms and
+                                                Conditions</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false">Property <i
+                                    class="ri-arrow-down-s-line"></i></a>
+                            <ul class="dropdown-menu bg-lg-white">
+                                <li><a class="dropdown-item" href="property-2-grid.html">Property 2 Grid</a></li>
+                                <li><a class="dropdown-item" href="property-3-grid.html">Property 3 Grid</a></li>
+                                <li><a class="dropdown-item" href="property-list.html">Property List</a></li>
+                                <li><a class="dropdown-item" href="property-detail.html">Property Detail</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                                data-bs-auto-close="outside" aria-expanded="false">Blog <i
+                                    class="ri-arrow-down-s-line"></i></a>
+                            <ul class="dropdown-menu bg-lg-white">
+                                <li><a class="dropdown-item" href="left-sidebar.html">Blog Left Sidebar</a></li>
+                                <li><a class="dropdown-item" href="right-sidebar.html">Blog Right Sidebar</a></li>
+                                <li><a class="dropdown-item" href="two-grid.html">Blog Two Grid</a></li>
+                                <li><a class="dropdown-item" href="two-grid-right.html">Blog Two Grid Right</a></li>
+                                <li class="dropdown sub-dropdown"><a class="dropdown-item dropdown-toggle" href="#"
+                                        data-bs-toggle="dropdown" data-bs-auto-close="outside">Blog Detail Pages <i
+                                            class="ri-arrow-right-s-line"></i></a>
+                                    <ul class="dropdown-menu start-100 top-0 p-0 bg-lg-white list-unstyled">
+                                        <li><a class="dropdown-item" href="left-classic.html">Blog Left Classic</a></li>
+                                        <li><a class="dropdown-item" href="right-classic.html">Blog Right Classic</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+    <!-- Page Title Start -->
+    <div class="page_title_container">
+        <div class="container">
+            <div class="row align-items-center text-center">
+                <div class="col-12 py-3">
+                    <h2 class="page_title">Blog</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Title End -->
+    <!-- Blog Start -->
+    <section class="blog">
+        <div class="container">
+            <div class="row py-3 g-4">
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="blog_detail">
+                                <img src="./assets/images/1.jpg" alt="" class="img-fluid .rounded-8">
+                                <h2 class="post_title">3D Rendering: A Glimpse into Modern Luxury Living Spaces</h2>
+                                <ul class="list-group list-group-horizontal post_detail_list">
+                                    <li class="list-group-item">
+                                        <img src="./assets/images/r-1.png" alt="r-1" class="img-fluid">
+                                        <span class="auther_name">Sienna Calder</span>
+                                    </li>
+                                    <li class="list-group-item"><i class="ri-calendar-line"></i><span>10/04/2025</span>
+                                    </li>
+                                    <li class="list-group-item"><i class="ri-eye-line"></i><span>2.1 Views</span></li>
+                                </ul>
+                                <div class="blog_content">
+                                    <p>Welcome, design enthusiasts! Whether you're dreaming of revamping your space or
+                                        seeking inspiration for a luxurious lifestyle upgrade, you're in for a treat.
+                                        Today, we explore the magic of 3D rendering and how it redefines modern dining
+                                        and living spaces with elegance and innovation.</p>
+                                    <p>With the power of photorealistic visualization, interior designers and homeowners
+                                        alike can now preview the future of their homes with precision—down to every
+                                        detail of lighting, texture, and layout.</p>
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6">
+                                            <img src="./assets/images/2.png" alt="a-2"
+                                                class="img-fluid .rounded-8 mb-4">
+                                        </div>
+                                        <div class="col-12 col-sm-6">
+                                            <img src="./assets/images/3.png" alt="a-3"
+                                                class="img-fluid .rounded-8 mb-4">
+                                        </div>
+                                    </div>
+                                    <p>In the world of high-end interiors, 3D rendering offers more than just a
+                                        preview—it tells a story of style, comfort, and luxury. From marble-finished
+                                        dining tables to velvet-upholstered sofas, every element in a rendered image
+                                        reflects not just functionality, but opulence.</p>
+                                    <h2 class="quate-text">
+                                        <i class="ri-double-quotes-l"></i>Design is a Dream, Not Just a Space: Choose
+                                        the Vision That Brings Every Detail to Life.<i class="ri-double-quotes-r"></i>
+                                    </h2>
+                                    <h3 class="conclusion_title">Conclusion</h3>
+                                    <p>In conclusion, 3D rendering is revolutionizing interior design. It’s more than a
+                                        tool—it’s a gateway into the future of your dream home. Whether you’re creating
+                                        a high-end dining area or a cozy yet opulent living space, these renderings
+                                        allow you to design with vision, purpose, and sophistication.</p>
+                                    <p>Modern luxury isn’t just about expensive items—it’s about creating a space that
+                                        feels both elegant and personal. With 3D rendering, the possibilities are
+                                        endless, and every choice becomes intentional.</p>
+                                    <p>Start imagining. Start visualizing. Start designing your lifestyle, one pixel at
+                                        a time.</p>
+                                    <ul
+                                        class="list-group cate_list list-group-horizontal d-flex justify-content-between gap-2">
+                                        <li class="list-group-item"><span class="text-muted">Categorized in: </span><a
+                                                href="#">Design, Lifestyle, Innovation</a></li>
+                                        <li class="list-group-item">
+                                            <span class="text-muted"><svg class="me-1"
+                                                    xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+                                                    viewBox="0 0 24 24" fill="none" stroke="#6c757d" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round">
+                                                    <circle cx="12" cy="12" r="10" />
+                                                    <polyline points="12 6 12 12 16 14" />
+                                                </svg>Last Update: </span>10 April 2025
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="about_author">
+                                    <h4 class="mb-3">
+                                        About the author
+                                    </h4>
+                                    <div class="d-flex flex-sm-row flex-column gap-15">
+                                        <div class="author_img">
+                                            <img src="./assets/images/r-1.png" alt="r-1">
+                                        </div>
+                                        <div class="author_info">
+                                            <div
+                                                class="d-flex justify-content-between flex-sm-row flex-column gap-10 mb-2">
+                                                <div class="d-flex align-items-center gap-2 mb-sm-0">
+                                                    <h5 class="author_name">
+                                                        Sienna Calder
+                                                    </h5>
+                                                    <span class="badge">Director & Writer</span>
+                                                </div>
+                                                <div class="social_icon_list">
+                                                    <ul class="list-group list-group-horizontal rounded-0 gap-10">
+                                                        <li class="list-group-item">
+                                                            <a class="btn shadow-none" href="#">
+                                                                <i class="fab fa-facebook-f"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <a class="btn shadow-none" href="#">
+                                                                <i class="fab fa-twitter"></i>
+                                                            </a>
+                                                        </li>
+                                                        <li class="list-group-item">
+                                                            <a class="btn shadow-none" href="#">
+                                                                <i class="fab fa-instagram"></i>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <p>Sienna Calder is a seasoned visual artist with a focus
+                                                on interior design and 3D rendering. Her work combines modern aesthetics
+                                                with digital precision, helping readers visualize elegant living spaces
+                                                before they’re even built.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="comment_title d-flex justify-content-between align-items-center">
+                                    <h3 class="mb-0">Comments</h3>
+                                    <button type="button" class="btn_comment" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal"><i class="ri-edit-box-line"></i>Leave a
+                                        Comment</button>
+                                </div>
+                                <ul class="list-group review_list">
+                                    <li class="list-group-item review_profile">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <img src="./assets/images/r-2.png" alt="r-2" class="img-fluid">
+                                            <div class="d-flex justify-content-between align-items-center w-100">
+                                                <div class="col">
+                                                    <h5>Delilah Pierce</h5>
+                                                    <div class="rating gap-2">
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-line"></i>
+                                                        <i class="ri-star-line"></i>
+                                                        <span>(3)</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col text-end">
+                                                    <span><svg class="me-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                                            stroke="#6c757d" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <circle cx="12" cy="12" r="10" />
+                                                            <polyline points="12 6 12 12 16 14" />
+                                                        </svg>5 Days Ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>The blend of luxury and functionality in the renderings is incredible. I’d
+                                            love to see how these ideas translate into small apartments too!</p>
+                                    </li>
+                                    <li class="list-group-item review_profile">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <img src="./assets/images/r-4.png" alt="r-4" class="img-fluid">
+                                            <div class="d-flex justify-content-between align-items-center w-100">
+                                                <div class="col">
+                                                    <h5>Rowan Sinclair</h5>
+                                                    <div class="rating gap-2">
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-line"></i>
+                                                        <span>(4)</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col text-end">
+                                                    <span><svg class="me-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                                            stroke="#6c757d" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <circle cx="12" cy="12" r="10" />
+                                                            <polyline points="12 6 12 12 16 14" />
+                                                        </svg>10 Days Ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>3D rendering is truly changing the design game. Being able to see everything
+                                            before committing is such a game-changer for homeowners.</p>
+                                    </li>
+                                    <li class="list-group-item review_profile">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <img src="./assets/images/r-3.png" alt="r-3" class="img-fluid">
+                                            <div class="d-flex justify-content-between align-items-center w-100">
+                                                <div class="col">
+                                                    <h5>Sylvana Crest</h5>
+                                                    <div class="rating gap-2">
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <i class="ri-star-fill"></i>
+                                                        <span>(5)</span>
+                                                    </div>
+                                                </div>
+                                                <div class="col text-end">
+                                                    <span><svg class="me-1" xmlns="http://www.w3.org/2000/svg"
+                                                            width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                                            stroke="#6c757d" stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round">
+                                                            <circle cx="12" cy="12" r="10" />
+                                                            <polyline points="12 6 12 12 16 14" />
+                                                        </svg>1 Month Ago</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>Absolutely stunning visuals! The textures, the lighting, the ambiance—it all
+                                            feels so real. Can’t wait to try something like this for my new home
+                                            project.</p>
+                                    </li>
+                                </ul>
+                                <div class="modal fade review_inputfields" id="exampleModal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                                    <h3>Leave a Comment</h3>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
+                                                </div>
+                                                <div class="row gy-lg-4 gy-2">
+                                                    <div class="col-sm-6">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Enter Your Name">
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <input type="email" class="form-control"
+                                                            placeholder="Enter Your Email">
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <textarea class="form-control" placeholder="Message"
+                                                            rows="10"></textarea>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <button type="button" class="btn btn-submit">Submit
+                                                            Review</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="blog_sidebar">
+                        <div class="blog_sidebar_box">
+                            <div class="sidebar_title">
+                                <h3>Latest Article</h3>
+                            </div>
+                            <ul class="article_list">
+                                <li>
+                                    <a href="#" class="article_list_img">
+                                        <img src="./assets/images/article-img-1.jpg" alt="article img" width="105">
+                                    </a>
+                                    <div class="article_list_content">
+                                        <div class="d-flex">
+                                            <label>House</label>
+                                            <span>31 March 2025</span>
+                                        </div>
+                                        <a href="#">3d rendering modern dining room</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="article_list_img">
+                                        <img src="./assets/images/article-img-2.jpg" alt="article img" width="105">
+                                    </a>
+                                    <div class="article_list_content">
+                                        <div class="d-flex">
+                                            <label>House</label>
+                                            <span>31 March 2025</span>
+                                        </div>
+                                        <a href="#">3d rendering loft scandinavian living room</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="#" class="article_list_img">
+                                        <img src="./assets/images/article-img-3.jpg" alt="article img" width="105">
+                                    </a>
+                                    <div class="article_list_content">
+                                        <div class="d-flex">
+                                            <label>House</label>
+                                            <span>31 March 2025</span>
+                                        </div>
+                                        <a href="#">3d rendering luxury and modern living room</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blog_sidebar_box">
+                            <div class="sidebar_title">
+                                <h3>Categories</h3>
+                            </div>
+                            <ul class="category_list">
+                                <li>
+                                    <a href="#">
+                                        Houses (5)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Apartments (3)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Shop (1)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Office (7)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Buildings (1)
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        Villas (4)
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="blog_sidebar_box">
+                            <div class="sidebar_title">
+                                <h3>Follow Us</h3>
+                            </div>
+                            <ul class="social_icons">
+                                <li>
+                                    <a class="btn shadow-none" href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn shadow-none" href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn shadow-none" href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="btn shadow-none" href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog End -->
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container pt-3">
+            <div class="row">
+                <div class="col-lg-5 col-12 mb-3 mb-0 mb-md-5 br_bottom">
+                    <div class="footer_logo mb-4">
+                        <a href="index-one.html">
+                            <img src="assets/images/logo.png" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <p class="mb-4">A seamless platform for buying, selling, and renting properties no agents, no
+                        commissions.</p>
+                    <div class="d-flex flex-wrap social_icons">
+                        <a class="btn shadow-none" href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn shadow-none" href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn shadow-none" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn shadow-none" href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 mb-3 mt-4 mt-md-0 mb-0 mb-md-5 br_bottom">
+                    <h3 class="mb-3 mb-md-4">
+                        Company
+                    </h3>
+                    <ul class="list-group link_list">
+                        <li class="list-group-item"><a href="#" class="btn btn-link">About us</a></li>
+                        <li class="list-group-item"> <a href="#" class="btn btn-link">Services</a></li>
+                        <li class="list-group-item"><a href="#" class="btn btn-link">Team</a></li>
+                        <li class="list-group-item"><a href="#" class="btn btn-link">Pricing</a></li>
+                        <li class="list-group-item"><a href="#" class="btn btn-link">Blog</a></li>
+                        <li class="list-group-item"><a href="#" class="btn btn-link">Login</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12 mb-3 mt-4 mt-md-0 mb-0 mb-md-5 br_bottom">
+                    <h3 class="mb-3 mb-md-4">
+                        Usefull Links
+                    </h3>
+                    <ul class="list-group link_list">
+                        <li class="list-group-item"><a href="#" class="btn btn-link">Terms &amp; Condition</a></li>
+                        <li class="list-group-item"> <a href="#" class="btn btn-link">Privacy Policy</a></li>
+                        <li class="list-group-item"><a href="#" class="btn btn-link">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-12 mb-3 ps-xxl-5 mt-4 mt-md-0 mb-0 mb-md-5">
+                    <h3 class="mb-3 mb-md-4">
+                        Contact details
+                    </h3>
+                    <ul class="list-group rounded-0">
+                        <li class="list-group-item bg-transparent border-0 rounded-0">
+                            <address class="mb-0">
+                                <i class="fas fa-map-marker-alt me-2"></i>Jersey City, New Jersey, USA.
+                            </address>
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 rounded-0">
+                            <i class="fas fa-phone-alt me-2"></i>+1 (464) 666-9362
+                        </li>
+                        <li class="list-group-item bg-transparent border-0 rounded-0">
+                            <i class="fas fa-envelope me-2"></i>info@example.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="footer_bottom">
+                    <p class="footer_bottom_text">&copy; Homecube 2025 | All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <!-- Back To Top Start -->
+    <div class="progress-button">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
+                style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 0;">
+            </path>
+        </svg>
+    </div>
+    <!-- Back To Top End -->
+
+    <!-- JS Files -->
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/SmoothScroll.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
