@@ -246,7 +246,7 @@
                         <img src="./assets/images/contactus.jpg" alt="" class="img-fluid contactus-img">
                     </div>
                     <div class="col-lg-6 col-12 mb-lg-0">
-                        <form action="php/mail.php" method="POST" class="row g-3">
+                        <form id="contactForm" action="php/mail.php" method="POST" class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
                                     <input type="text" class="form-control shadow-none" name="name" id="name" required
@@ -379,6 +379,30 @@
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/SmoothScroll.js"></script>
     <script src="./assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#contactForm').on('submit', function (e) {
+                e.preventDefault(); // Prevent form from submitting normally
+
+                var formData = $(this).serialize();
+
+                $.ajax({
+                    type: 'POST',
+                    url: $(this).attr('action'), // mail.php
+                    data: formData,
+                    success: function (response) {
+                        alert("✅ " + response);
+                        $('#contactForm')[0].reset(); // Reset form fields
+                    },
+                    error: function (xhr) {
+                        alert("❌ Error: " + xhr.responseText);
+                    }
+                });
+            });
+        });
+    </script>
+
 </body>
 
 </html>
