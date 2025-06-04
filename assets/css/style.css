@@ -2320,7 +2320,8 @@ img,
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
-#index-three .how_it_works .work-item{
+#index-three .how_it_works .work-item,
+#index-two .how_it_works .work-item{
     background-color: #e5f1fe;
 }
 #index-two .how_it_works .work-item {
@@ -2344,7 +2345,7 @@ img,
     transition: all .3s ease-in-out;
 }
 #index-two .how_it_works .work-item .work-icon{
-    background-color: #e5f1fe;
+    background-color: #0075f8;
     border: 0;
 }
 #index-two .how_it_works .work-item:hover .work-icon{
