@@ -246,39 +246,39 @@
                         <img src="./assets/images/contactus.jpg" alt="" class="img-fluid contactus-img">
                     </div>
                     <div class="col-lg-6 col-12 mb-lg-0">
-                        <div class="row g-3">
+                        <form action="php/mail.php" method="POST" class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control shadow-none" id="name"
-                                        placeholder="name@example.com">
+                                    <input type="text" class="form-control shadow-none" name="name" id="name" required
+                                        placeholder="Your Name">
                                     <label for="name">Your Name*</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control shadow-none" id="email"
-                                        placeholder="name@example.com">
+                                    <input type="email" class="form-control shadow-none" name="email" id="email"
+                                        required placeholder="Your Email">
                                     <label for="email">Your Email*</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control shadow-none" id="subject"
+                                    <input type="text" class="form-control shadow-none" name="subject" id="subject"
                                         placeholder="Subject">
                                     <label for="subject">Subject</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control shadow-none" placeholder="Message"
-                                        id="message"></textarea>
+                                    <textarea class="form-control shadow-none" name="message" id="message" required
+                                        placeholder="Message"></textarea>
                                     <label for="message">Message*</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <button type="submit" class="btn btn_send_message">Send Message</button>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
