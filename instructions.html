@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Real Estate HTML5 Template – Product Modification Instructions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    code, pre {
+      background: #eee;
+      padding: 10px;
+      display: block;
+      border-left: 4px solid #3498db;
+      margin-bottom: 20px;
+      overflow-x: auto;
+    }
+    ul {
+      margin-left: 20px;
+    }
+    .note {
+      background-color: #fff3cd;
+      border-left: 6px solid #ffc107;
+      padding: 15px;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🛠 Real Estate HTML5 Template – How to Modify Property Listings</h1>
+
+  <p>This instruction file will guide you through editing and customizing property (product) listings in your real estate HTML5 template. No coding experience? No worries! Just follow each step carefully.</p>
+
+  <h2>📁 1. Locate the Main Files</h2>
+  <p>After unzipping the template, you'll see a folder structure like this:</p>
+
+  <pre>
+/assets
+/css
+/fonts
+/images
+/js
+index.html
+property-list.html
+property-detail.html
+instructions.html
+  </pre>
+
+  <p>The key files for editing products:</p>
+  <ul>
+    <li><strong>property-list.html</strong>: Where multiple property cards are listed</li>
+    <li><strong>property-detail.html</strong>: Single property details page (can be duplicated)</li>
+    <li><strong>/images/</strong>: Folder where your property images are stored</li>
+  </ul>
+
+  <h2>✏️ 2. Edit Property Listings</h2>
+  <p>Open <code>property-list.html</code> in any code editor (we recommend VS Code or Sublime Text).</p>
+
+  <p>Find a code block like this:</p>
+
+  <pre>
+&lt;div class="property-card"&gt;
+  &lt;img src="./assets/images/property1.jpg" alt="Luxury Apartment"&gt;
+  &lt;h3&gt;A Beautiful House with Swimming Pool&lt;/h3&gt;
+  &lt;h3&gt;Jersey City, New Jersey, USA.&lt;/h3&gt;
+  &lt;p&gt;$2,590&lt;/p&gt;
+  &lt;a href="property-detail.html" class="btn"&gt;See More&lt;/a&gt;
+&lt;/div&gt;
+  </pre>
+
+  <p><strong>To modify this:</strong></p>
+  <ul>
+    <li><strong>Change image:</strong> Replace <code>src="./assets/images/property-img-1.jpg"</code> with your new image path</li>
+    <li><strong>Update title:</strong> Change the text inside <code>&lt;h4&gt;</code></li>
+    <li><strong>Update location:</strong> Change the text inside <code>&ltspan&gt;</code></li>
+    <li><strong>Update price:</strong> Change the amount inside <code>&lt;h5&gt;</code></li>
+    <li><strong>Change link:</strong> Update the <code>href</code> to the correct detail page (e.g., <code>property-detail.html</code>)</li>
+  </ul>
+
+  <h2>🖼 3. Add or Replace Property Images</h2>
+  <p>Go to the <code>./assets/images</code> folder and upload your property images (JPG, PNG, or WEBP). Use clear file names like <code>property-img-1.jpg</code>.</p>
+
+  <p>Then, update the HTML like this:</p>
+
+  <pre>
+&lt;img src="./assets/images/property-img-1.jpg" alt="property-img-1"&gt;
+  </pre>
+
+  <div class="note">
+    💡 Tip: Optimize images to be under 500 KB for faster load time.
+  </div>
+
+  <h2>📄 4. Customize Property Details Page</h2>
+  <p>Open <code>property-detail.html</code> to edit or duplicate it for each unique property.</p>
+
+  <pre>
+&lt;h2&gt;Swimming pool side of the residential Ascot home&lt;/h2&gt;
+&lt;p class="price"&gt;$950,000&lt;/p&gt;
+&lt;p class="description"&gt;Nestled in one of Ascot’s most prestigious neighborhoods...&lt;/p&gt;
+&lt;img src="./assets/images/property-img-1.jpg" alt="property-img-1"&gt;
+  </pre>
+
+  <p>For multiple listings, copy this file, rename (e.g. <code>property-list.html</code>), and link it from your listing card.</p>
+
+  <h2>🔗 5. Update Menu and Navigation Links</h2>
+  <p>To ensure navigation works, open <code>index.html</code> or <code>header.html</code> and update links like this:</p>
+
+  <pre>
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="property-list.html"&gt;property&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="contact.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+  </pre>
+
+  <h2>➕ 6. Add a New Property</h2>
+  <ol>
+    <li>Copy a full property card block in <code>property-list.html</code></li>
+    <li>Paste it below the existing ones</li>
+    <li>Update title, price, image, and link</li>
+    <li>Ensure the linked <code>property-detail.html</code> page exists</li>
+  </ol>
+
+  <h2>✅ 7. Final Checks</h2>
+  <ul>
+    <li>Save all your HTML files</li>
+    <li>Open your site in a browser and check all links and images</li>
+    <li>Make sure your design looks good on mobile</li>
+  </ul>
+
+  <hr>
+  <p><strong>Thank you for using our Real Estate HTML5 Template!</strong></p>
+
+</body>
+</html>
