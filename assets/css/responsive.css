@@ -10,7 +10,7 @@
     }
 
     .property_slider .card {
-        width: max-content;
+        width: auto;
     }
 
     .blog_detail .about_author .gap-15 {
@@ -314,8 +314,8 @@
         width: 670px;
         bottom: 140px;
         margin: inherit;
-        left: inherit;
-        right: inherit;
+        left: 0;
+        right: 0;
     }
 
     .property-list-one-column .property_list_section .card-body {
