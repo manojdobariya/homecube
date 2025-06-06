@@ -181,24 +181,6 @@
         border-bottom: 0;
     }
 
-    .header.header_transparent .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link {
-        color: #fff;
-    }
-
-    .header.header_transparent .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
-    .header.header_transparent .navbar-light .dropdown.nav-item:hover>.nav-link:not(.disabled) {
-        color: #fff;
-    }
-
-    .header.header_transparent.sticky .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link {
-        color: #051421;
-    }
-
-    .header.header_transparent.sticky .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
-    .header.header_transparent.sticky .navbar-light .dropdown.nav-item:hover>.nav-link:not(.disabled) {
-        color: #0075f8;
-    }
-
     .search_property .search_fileds.focus_orange .select-selected.selected {
         background-color: #fdeee8;
         border-color: #f2561b;
@@ -314,6 +296,7 @@
     }
 }
 
+
 @media only screen and (min-width: 1200px) {
     .container {
         max-width: 1140px;
@@ -324,6 +307,23 @@
         position: relative;
     }
 
+    .header.header_transparent .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link {
+        color: #fff;
+    }
+
+    .header.header_transparent .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
+    .header.header_transparent .navbar-light .dropdown.nav-item:hover>.nav-link:not(.disabled) {
+        color: #fff;
+    }
+
+    .header.header_transparent.sticky .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link {
+        color: #051421;
+    }
+
+    .header.header_transparent.sticky .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link:hover,
+    .header.header_transparent.sticky .navbar-light .dropdown.nav-item:hover>.nav-link:not(.disabled) {
+        color: #0075f8;
+    }
 
     .header .navbar-light .navbar-collapse .navbar-nav .nav-item .nav-link {
         padding: 24px 10px;
@@ -335,7 +335,7 @@
         border-radius: 0;
     }
 
-    .header .navbar-light.navbar-expand-xl .navbar-nav .dropdown-submenu {
+    .header .navbar-light .navbar-nav .dropdown-submenu {
         min-width: 210px;
         position: absolute;
         left: 100%;
@@ -350,7 +350,7 @@
         box-shadow: 0 4.8px 24.4px -6px rgb(19 16 34 / 0.15), 0 4px 13px -2px rgb(19 16 34 / 0.1);
     }
 
-    .header .navbar-light.navbar-expand-xl .navbar-nav .dropdown-submenu.showing {
+    .header .navbar-light .navbar-nav .dropdown-submenu.showing {
         visibility: visible;
         opacity: 1;
         transform: translateY(0);
@@ -364,7 +364,8 @@
     .header .navbar-light .dropdown-menu .dropdown-item:hover {
         padding-left: 20px;
     }
-    .header .navbar-light .dropdown-menu .dropdown-submenu .dropdown-item:hover{
+
+    .header .navbar-light .dropdown-menu .dropdown-submenu .dropdown-item:hover {
         padding-left: 30px !important;
     }
 
