@@ -140,7 +140,7 @@ $(document).ready(function () {
 });
 
 function toggleDropdownClass() {
-    if (window.matchMedia("(min-width: 992px)").matches) {
+    if (window.matchMedia("(min-width: 1200px)").matches) {
         // Desktop
         $('.dropdown.sub-dropdown ul').removeClass('dropdown-menu').addClass('dropdown-submenu');
     } else {
