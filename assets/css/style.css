@@ -850,17 +850,18 @@ img,
 }
 
 /*----------------------------------------------------
-/* Map */
+/* 02. Property Search */
 /*----------------------------------------------------*/
 
-.map_section iframe {
-    width: 100%;
-    height: calc(600px - 73.6px);
-    ;
-    display: block;
-    border: none;
-    margin: 0;
-    padding: 0;
+.property_search_section{
+    height: 100vh;
+    background: url(../images/slide-img-4.jpg) center 0 / cover no-repeat fixed;
+}
+.property_search_section .search_fileds {
+    backdrop-filter: blur(20px);
+    background-color: rgba(200, 200, 200, 0.6) !important; 
+    border: 1px solid #fff;
+    margin-bottom: 30px;
 }
 
 /*----------------------------------------------------
